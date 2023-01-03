@@ -1,0 +1,11 @@
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\BikeStore.sqlproj.AssemblyReference.cache
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\BikeStore.dll
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\BikeStore.pdb
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Debug\BikeStore.dacpac
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Debug\BikeStore.dll
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Debug\BikeStore.pdb
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\Model.xml
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\refactor.xml
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\postdeploy.sql
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\predeploy.sql
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\BikeStore.sqlproj.CopyComplete

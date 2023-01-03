@@ -1,0 +1,15 @@
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Release\BikeStore.dacpac
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Release\BikeStore.dll
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Release\BikeStore.pdb
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\Model.xml
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\refactor.xml
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\postdeploy.sql
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\predeploy.sql
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\BikeStore.sqlproj.CopyComplete
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\BikeStore.dll
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\BikeStore.pdb
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Release\BikeStore.xml
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Release\BikeStore.sqlproj.AssemblyReference.cache
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Release\Microsoft.Data.Tools.Utilities.dll
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Release\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\bin\Release\Microsoft.SqlServer.Types.dll
