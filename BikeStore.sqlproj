@@ -188,8 +188,8 @@
     <None Include="BikeStore.publish.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ArtifactReference Include="bin\Debug\BikeStore.dacpac">
-      <HintPath>bin\Debug\BikeStore.dacpac</HintPath>
+    <ArtifactReference Include="bin\Release\BikeStore.dacpac">
+      <HintPath>bin\Release\BikeStore.dacpac</HintPath>
       <SuppressMissingDependenciesErrors>True</SuppressMissingDependenciesErrors>
       <DatabaseSqlCmdVariable>BikeStore</DatabaseSqlCmdVariable>
     </ArtifactReference>
