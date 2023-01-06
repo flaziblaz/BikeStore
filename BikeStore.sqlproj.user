@@ -3,5 +3,6 @@
   <PropertyGroup>
     <StartupScript>(Blank)</StartupScript>
     <StartAction>StartNone</StartAction>
+    <DefaultPublishProfile>BikeStore.publish.xml</DefaultPublishProfile>
   </PropertyGroup>
 </Project>

@@ -3,19 +3,17 @@
   <PropertyGroup>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>BikeStore</TargetDatabaseName>
-    <DeployScriptFileName>BikeStore.sql</DeployScriptFileName>
+    <DeployScriptFileName>BikeStore_create.sql</DeployScriptFileName>
     <TargetConnectionString>Data Source=V-D-CONSUL-28;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
     <BackupDatabaseBeforeChanges>True</BackupDatabaseBeforeChanges>
-    <BlockWhenDriftDetected>False</BlockWhenDriftDetected>
-    <RegisterDataTierApplication>False</RegisterDataTierApplication>
+    <BlockWhenDriftDetected>True</BlockWhenDriftDetected>
+    <RegisterDataTierApplication>True</RegisterDataTierApplication>
   </PropertyGroup>
   <ItemGroup>
     <SqlCmdVariable Include="BikeStore">
       <Value>BikeStore</Value>
     </SqlCmdVariable>
-  
   </ItemGroup>
-
 </Project>
