@@ -24,7 +24,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="BikeStore.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\EFUAN.SIMMS\SOURCE\REPOS\BIKESTORE\BIKESTORE\OBJ\DEBUG\BIKESTORE.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\EFUAN.SIMMS\SOURCE\REPOS\BIKESTORE\BIKESTORE\OBJ\PUBLISH\BIKESTORE.DLL" />
 			<Metadata Name="AssemblyName" Value="BikeStore" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -32,7 +32,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Debug\BikeStore.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\efuan.simms\source\repos\BikeStore\BikeStore\obj\Publish\BikeStore.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable">
 			<Metadata Name="BikeStore" Value="" />
@@ -661,6 +661,22 @@
 				</Entry>
 				<Entry>
 					<Element Type="SqlSimpleColumn" Name="[dbo].[TestTable].[Testcol4]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[TestTable].[Testcol5]">
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="SqlTypeSpecifier">

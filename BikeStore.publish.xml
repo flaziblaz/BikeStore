@@ -8,5 +8,14 @@
     <ProfileVersionNumber>1</ProfileVersionNumber>
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
     <BackupDatabaseBeforeChanges>True</BackupDatabaseBeforeChanges>
+    <BlockWhenDriftDetected>False</BlockWhenDriftDetected>
+    <RegisterDataTierApplication>False</RegisterDataTierApplication>
   </PropertyGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="BikeStore">
+      <Value>BikeStore</Value>
+    </SqlCmdVariable>
+  
+  </ItemGroup>
+
 </Project>
