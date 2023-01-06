@@ -86,6 +86,7 @@
     <CreateProjectFromDatabaseCompleted>True</CreateProjectFromDatabaseCompleted>
     <TargetFrameworkProfile />
     <GenerateCreateScript>True</GenerateCreateScript>
+    <DacVersion>2.0.0.0</DacVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>

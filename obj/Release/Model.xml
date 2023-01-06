@@ -11,12 +11,6 @@
 			<Metadata Name="CompatibilityMode" Value="140" />
 		</CustomData>
 		<CustomData Category="Reference" Type="SqlSchema">
-			<Metadata Name="FileName" Value="C:\USERS\EFUAN.SIMMS\SOURCE\REPOS\BIKESTORE\BIKESTORE\BIN\DEBUG\BIKESTORE.DACPAC" />
-			<Metadata Name="LogicalName" Value="BikeStore.dacpac" />
-			<Metadata Name="ExternalParts" Value="[$(BikeStore)]" />
-			<Metadata Name="SuppressMissingDependenciesErrors" Value="True" />
-		</CustomData>
-		<CustomData Category="Reference" Type="SqlSchema">
 			<Metadata Name="FileName" Value="C:\USERS\EFUAN.SIMMS\SOURCE\REPOS\BIKESTORE\BIKESTORE\BIN\RELEASE\BIKESTORE.DACPAC" />
 			<Metadata Name="LogicalName" Value="BikeStore.dacpac" />
 			<Metadata Name="ExternalParts" Value="[$(BikeStore)]" />
@@ -70,7 +64,7 @@
 					<References Name="[sales].[order_items].[discount]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="41" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -95,7 +89,7 @@
 					<References Name="[production].[products]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="42" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="6" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -120,7 +114,7 @@
 					<References Name="[sales].[stores]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="43" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="7" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -145,7 +139,7 @@
 					<References Name="[sales].[orders]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="44" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="8" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -170,7 +164,7 @@
 					<References Name="[production].[products]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="45" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="9" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -195,7 +189,7 @@
 					<References Name="[sales].[customers]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="46" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="10" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Relationship Name="Columns">
@@ -218,7 +212,7 @@
 					<References Name="[sales].[staffs]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="47" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="11" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -243,7 +237,7 @@
 					<References Name="[sales].[stores]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="48" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="12" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Relationship Name="Columns">
@@ -266,7 +260,7 @@
 					<References Name="[sales].[staffs]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="49" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="13" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -291,7 +285,7 @@
 					<References Name="[sales].[stores]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="50" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="14" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -316,7 +310,7 @@
 					<References Name="[production].[brands]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="51" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="15" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
 			<Property Name="OnUpdateAction" Value="1" />
@@ -341,7 +335,7 @@
 					<References Name="[production].[categories]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="52" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="16" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -360,7 +354,7 @@
 					<References Name="[dbo].[TestTable]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="53" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="17" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -379,7 +373,7 @@
 					<References Name="[dbo].[Warehouse]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="54" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="18" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -407,7 +401,7 @@
 					<References Name="[production].[stocks]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="55" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="19" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -435,7 +429,7 @@
 					<References Name="[sales].[order_items]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="56" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="20" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -454,7 +448,7 @@
 					<References Name="[sales].[orders]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="57" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="21" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -473,7 +467,7 @@
 					<References Name="[sales].[staffs]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="58" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="22" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -492,7 +486,7 @@
 					<References Name="[sales].[stores]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="59" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="23" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -511,7 +505,7 @@
 					<References Name="[sales].[customers]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="60" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="24" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -530,7 +524,7 @@
 					<References Name="[production].[products]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="61" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="25" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -549,7 +543,7 @@
 					<References Name="[production].[brands]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="62" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="26" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -568,7 +562,7 @@
 					<References Name="[production].[categories]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="63" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="27" />
 		</Element>
 		<Element Type="SqlUniqueConstraint">
 			<Relationship Name="ColumnSpecifications">
@@ -587,7 +581,7 @@
 					<References Name="[sales].[staffs]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="64" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="28" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[TestTable]">
 			<Property Name="IsQuotedIdentifierOn" Value="False" />
@@ -607,7 +601,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="53" />
+						<AttachedAnnotation Disambiguator="17" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -659,6 +653,38 @@
 						</Relationship>
 					</Element>
 				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[TestTable].[Testcol4]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[TestTable].[Testcol5]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
 			</Relationship>
 			<Relationship Name="Schema">
 				<Entry>
@@ -683,7 +709,7 @@
 					<References Name="[dbo].[Warehouse]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="65" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="29" />
 		</Element>
 		<Element Type="SqlView" Name="[dbo].[vwInventory]">
 			<Property Name="QueryScript">
@@ -781,7 +807,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="54" />
+						<AttachedAnnotation Disambiguator="18" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -817,13 +843,29 @@
 						</Relationship>
 					</Element>
 				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Warehouse].[Test]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="10" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
 			</Relationship>
 			<Relationship Name="Schema">
 				<Entry>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="65" />
+			<AttachedAnnotation Disambiguator="29" />
 		</Element>
 		<Element Type="SqlSchema" Name="[production]">
 			<Relationship Name="Authorizer">
@@ -875,7 +917,7 @@
 					<References Name="[production]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="62" />
+			<AttachedAnnotation Disambiguator="26" />
 		</Element>
 		<Element Type="SqlTable" Name="[production].[categories]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -920,7 +962,7 @@
 					<References Name="[production]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="63" />
+			<AttachedAnnotation Disambiguator="27" />
 		</Element>
 		<Element Type="SqlTable" Name="[production].[products]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1031,9 +1073,9 @@
 					<References Name="[production]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="61" />
-			<AttachedAnnotation Disambiguator="51" />
-			<AttachedAnnotation Disambiguator="52" />
+			<AttachedAnnotation Disambiguator="25" />
+			<AttachedAnnotation Disambiguator="15" />
+			<AttachedAnnotation Disambiguator="16" />
 		</Element>
 		<Element Type="SqlTable" Name="[production].[stocks]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1091,9 +1133,9 @@
 					<References Name="[production]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="55" />
-			<AttachedAnnotation Disambiguator="42" />
-			<AttachedAnnotation Disambiguator="43" />
+			<AttachedAnnotation Disambiguator="19" />
+			<AttachedAnnotation Disambiguator="6" />
+			<AttachedAnnotation Disambiguator="7" />
 		</Element>
 		<Element Type="SqlSchema" Name="[sales]">
 			<Relationship Name="Authorizer">
@@ -1259,7 +1301,7 @@
 					<References Name="[sales]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="60" />
+			<AttachedAnnotation Disambiguator="24" />
 		</Element>
 		<Element Type="SqlTable" Name="[sales].[order_items]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1362,7 +1404,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="41" />
+						<AttachedAnnotation Disambiguator="5" />
 					</Element>
 				</Entry>
 			</Relationship>
@@ -1371,9 +1413,9 @@
 					<References Name="[sales]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="56" />
-			<AttachedAnnotation Disambiguator="44" />
-			<AttachedAnnotation Disambiguator="45" />
+			<AttachedAnnotation Disambiguator="20" />
+			<AttachedAnnotation Disambiguator="8" />
+			<AttachedAnnotation Disambiguator="9" />
 		</Element>
 		<Element Type="SqlTable" Name="[sales].[orders]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1511,10 +1553,10 @@
 					<References Name="[sales]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="57" />
-			<AttachedAnnotation Disambiguator="46" />
-			<AttachedAnnotation Disambiguator="47" />
-			<AttachedAnnotation Disambiguator="48" />
+			<AttachedAnnotation Disambiguator="21" />
+			<AttachedAnnotation Disambiguator="10" />
+			<AttachedAnnotation Disambiguator="11" />
+			<AttachedAnnotation Disambiguator="12" />
 		</Element>
 		<Element Type="SqlTable" Name="[sales].[staffs]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1656,10 +1698,10 @@
 					<References Name="[sales]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="58" />
-			<AttachedAnnotation Disambiguator="49" />
-			<AttachedAnnotation Disambiguator="50" />
-			<AttachedAnnotation Disambiguator="64" />
+			<AttachedAnnotation Disambiguator="22" />
+			<AttachedAnnotation Disambiguator="13" />
+			<AttachedAnnotation Disambiguator="14" />
+			<AttachedAnnotation Disambiguator="28" />
 		</Element>
 		<Element Type="SqlTable" Name="[sales].[stores]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1800,7 +1842,7 @@
 					<References Name="[sales]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="59" />
+			<AttachedAnnotation Disambiguator="23" />
 		</Element>
 	</Model>
 </DataSchemaModel>
